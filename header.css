@@ -1,0 +1,23 @@
+/* header */
+.navigation {
+    display: flex;
+  }
+  .nav_wrapp {
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 17px;
+    margin-right: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    background-color: rgba(0, 127, 255, 1);
+    font-family: "GolosText-Semibold";
+    font-size: 36px;
+  }
+  .logo {
+    align-self: center;
+    margin-left: 190px;
+    width: 171px;
+  }
+  /* header кончился */

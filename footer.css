@@ -1,0 +1,85 @@
+/* НАЧАЛО FOOTER */
+.links{
+  color: white;
+}
+.links:hover{
+  color: rgb(19, 129, 19);
+}
+.footer {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(2, 6, 25, 1);
+  }
+  .footer-wrapp {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .slogan {
+    width: 250px;
+    font-size: 25px;
+    color: white;
+    font-family: "GolosText-SemiBold";
+  }
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .footer-link {
+    font-size: 25px;
+    color: white;
+    font-family: "GolosText-Regular";
+  }
+  .footer-link:hover {
+    color: rgb(19, 129, 19);
+  }
+  .footer-bot {
+    font-size: 30px;
+    color: white;
+    font-family: "GolosText-SemiBold";
+  }
+  .footer-button {
+    cursor: pointer;
+    padding: 5px 85px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 127, 255, 1);
+    font-family: "GolosText-SemiBold";
+  }
+  .footer-button:hover {
+    color: black;
+  }
+  .mail {
+    font-size: 28px;
+    color: white;
+    font-family: "GolosText-Regular";
+  }
+  .mail:hover {
+    color: rgb(19, 129, 19);
+  }
+  .tel {
+    font-size: 28px;
+    color: white;
+    font-family: "GolosText-Regular";
+  }
+  .tel:hover {
+    color: rgb(19, 129, 19);
+  }
+  .footer-info {
+    margin-top: 65px;
+    font-size: 16px;
+    color: white;
+    font-family: "GolosText-Regular";
+  }
+  .copyright {
+    padding-bottom: 25px;
+    margin-top: 25px;
+    font-size: 15px;
+    color: white;
+    font-family: "GolosText-Bold";
+  }
+  /* КОНЕЦ FOOTER */

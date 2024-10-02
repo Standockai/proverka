@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(229, 242, 255, 1);
+  overflow-x: hidden; /* Запрет на горизонтальную прокрутку */
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto; /* Центрирование контейнера */
+  width: 1280px; /* Фиксированная ширина */
+}
+  .preview{
+  margin-top: 40px;
+  background: linear-gradient(180deg, rgba(0, 219, 206, 0), rgba(0, 219, 206, 0), rgba(0, 219, 206, 0.5), rgba(19, 146, 248, 1), rgba(140, 25, 255, 1)), url(/media/oneevent/previewevent.png);
+  height: 720px;
+  max-width: 1280px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;}
+  .main-theme{
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    font-family:"GolosText-Bold";
+    margin-top:500px;
+    text-align: center;
+  }
+  .subhead-wrapp{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .date-img{
+    height:25px;
+  }
+  .date{
+    margin-left:30px;
+    margin-right:30px;
+    color: white;
+    font-size: 20px;
+    font-family: "GolosText-regular";
+  }
+  .geo-img{
+    height:25px;
+  }
+  .geo{
+    margin-left:30px;
+    margin-right:30px;
+    color: white;
+    font-size: 20px;
+    font-family: "GolosText-regular";
+  }
+  .price-img{
+    height:25px;
+  }
+  .price{
+    margin-left:30px;
+    margin-right:30px;
+    color: white;
+    font-size: 20px;
+    font-family: "GolosText-regular";
+  }
+  .event{
+    background-color: white;
+    border-radius:30px;
+  }
+  .event-main-text{
+    padding: 20px;
+    font-size:30px;
+    font-family: "GolosText-Bold";
+  }
+  .event-text{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: "GolosText-Medium";
+  }
+  .slider-text{
+    margin-top:50px;
+    text-align: center;
+    font-family: "AKONY";
+    font-size: 30px;
+    color: black;
+    filter: drop-shadow(2px 2px 10px black);
+  }
+  .slider{
+    text-align: center;
+    font-family: "GolosText-Bold";
+    font-size: 100px;
+    color: black;
+  }
+  .poster {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: black;
+    font-family: "AKONY";
+    filter: drop-shadow(2px 2px 10px black);
+  }
+  .event-wrapp {
+    margin-top: 30px;
+  }
+  .event-card {
+    margin-bottom: 30px;
+    display: flex;
+    background: linear-gradient(
+      95deg,
+      rgba(140, 25, 255, 1) 0%,
+      rgba(19, 146, 248, 1) 65%,
+      rgba(0, 219, 206, 1) 100%
+    );
+    border-radius: 30px;
+  }
+  .event-img {
+    border-radius: 30px;
+    object-fit: cover;
+  }
+  .event-text-wrapp {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+  .event-title {
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+    font-family: "GolosText-Bold";
+  }
+  .event-subhead {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: "GolosText-Bold";
+  }
+  .event-time {
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 127, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-family: "GolosText-Bold";
+  }
+  .events-form {
+    text-align: center;
+  }
+  .events-button {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: linear-gradient(
+      95deg,
+      rgba(140, 25, 255, 1) 0%,
+      rgba(19, 146, 248, 1) 65%,
+      rgba(0, 219, 206, 1) 100%
+    );
+    color: white;
+    font-size: 30px;
+    font-family: "GolosText-Bold";
+  }
+  /* КОНЕЦ АФИША СОБЫТИЙ */

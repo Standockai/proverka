@@ -1,0 +1,40 @@
+.slider {
+    position: relative;
+    width: 100%; /* Растягиваем на всю ширину */
+    max-width: 800px; /* Максимальная ширина слайдера */
+    height: 500px; /* Высота слайдера */
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top:25px;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%; /* Заполнение всей высоты слайдов */
+}
+.slide {
+    min-width: 100%;
+    height: 100%; /* Заполнение всей высоты слайда */
+    box-sizing: border-box;
+}
+.slide img {
+    width: 100%;
+    height: 100%; /* Заполнение всей высоты изображения */
+    object-fit: cover; /* Сохранение пропорций изображения */
+}
+.navigationslider {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.nav-button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

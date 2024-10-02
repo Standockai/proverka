@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(229, 242, 255, 1);
+  overflow-x: hidden; /* Запрет на горизонтальную прокрутку */
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto; /* Центрирование контейнера */
+  width: 1280px; /* Фиксированная ширина */
+}
+  .poster {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: black;
+    font-family: "AKONY";
+    filter: drop-shadow(2px 2px 10px black);
+  }
+  .event-wrapp {
+    margin-top: 30px;
+  }
+  .event-card {
+    margin-bottom: 30px;
+    display: flex;
+    background: linear-gradient(
+      95deg,
+      rgba(140, 25, 255, 1) 0%,
+      rgba(19, 146, 248, 1) 65%,
+      rgba(0, 219, 206, 1) 100%
+    );
+    border-radius: 30px;
+  }
+  .event-img {
+    border-radius: 30px;
+    object-fit: cover;
+  }
+  .event-text-wrapp {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+  .event-title {
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+    font-family: "GolosText-Bold";
+  }
+  .event-subhead {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: "GolosText-Bold";
+  }
+  .event-time {
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 127, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-family: "GolosText-Bold";
+  }
+  .events-form {
+    text-align: center;
+  }
+  .events-button {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: linear-gradient(
+      95deg,
+      rgba(140, 25, 255, 1) 0%,
+      rgba(19, 146, 248, 1) 65%,
+      rgba(0, 219, 206, 1) 100%
+    );
+    color: white;
+    font-size: 30px;
+    font-family: "GolosText-Bold";
+  }
+  /* КОНЕЦ АФИША СОБЫТИЙ */

@@ -1,0 +1,78 @@
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 20px auto; /* Центрируем слайдер */
+  }
+  
+  .slides-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    min-width: calc(100% / 3); /* Устанавливаем ширину для отображения трех карточек */
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px; /* Отступ между карточками */
+    background: linear-gradient(
+      90deg,
+      rgba(140, 25, 255, 1),
+      rgba(19, 146, 248, 1),
+      rgba(0, 219, 206, 1)
+    );
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .button-prev, .button-next {
+    background: linear-gradient(
+      90deg,
+      rgba(140, 25, 255, 1),
+      rgba(19, 146, 248, 1),
+      rgba(0, 219, 206, 1)
+    );
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .button-prev:hover, .button-next:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .slider-img {
+    max-width: 100%;
+  }
+  
+  .slider-type {
+    font-family: "GolosText-Bold";
+    font-size: 15px;
+    background-color: rgba(255, 122, 25, 1);
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  .slider-text {
+    font-family: "GolosText-Bold";
+    font-size: 19px;
+  }
+  
+  .slider-subhead {
+    font-family: "GolosText-regular";
+    font-size: 15px;
+  }
+  
